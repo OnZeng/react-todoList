@@ -1,5 +1,5 @@
-import { ChangeEvent } from "react";
-import "./index.css";
+import { ChangeEvent } from 'react';
+import './index.css';
 
 interface ListItemProps {
   name: string;
@@ -14,10 +14,7 @@ export default function Item(props: {
   const { List, setList } = props;
 
   // 改值
-  const handleChange = (
-    index: number,
-    event: ChangeEvent<HTMLInputElement>
-  ) => {
+  const handleChange = (index: number, event: ChangeEvent<HTMLInputElement>) => {
     const newValues = [...List];
     newValues[index].name = event.target.value;
     setList(newValues);
