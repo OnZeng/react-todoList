@@ -30,13 +30,11 @@ export default function Index() {
     setList([...List, newItem]);
   };
   return (
-    <>
-      <div className='box1'>
-        <div className='box2'>
-          <button onClick={handleAdd}>添加</button>
-        </div>
-        <ListItem List={List} setList={setList} />
+    <div className='box1'>
+      <div className='box2'>
+        <button onClick={handleAdd}>添加</button>
       </div>
-    </>
+      <ListItem List={List} setList={setList} />
+    </div>
   );
 }

@@ -7,7 +7,10 @@ interface ListItemProps {
   isEdit: boolean;
 }
 
-export default function Item(props: { List: ListItemProps[]; setList: any }) {
+export default function Item(props: {
+  List: ListItemProps[];
+  setList: React.Dispatch<React.SetStateAction<ListItemProps[]>>;
+}) {
   const { List, setList } = props;
 
   // 改值
