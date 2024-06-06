@@ -24,7 +24,7 @@ export default function Index() {
 
     return (
         <div className='box1'>
-            <Action List={List} setList={setList} />
+            <Action List={List} setList={setList}/>
             <ListItem List={List} setList={setList}/>
         </div>
     );

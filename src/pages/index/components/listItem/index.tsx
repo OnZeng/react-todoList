@@ -1,11 +1,6 @@
 import React, {ChangeEvent} from 'react';
 import './index.css';
-
-interface ListItemProps {
-    name: string;
-    id: number;
-    isEdit: boolean;
-}
+import {ListItemProps} from './type.ts'
 
 export default function Item(props: {
     List: ListItemProps[];

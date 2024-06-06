@@ -1,12 +1,6 @@
 import './index.css'
 import React from "react";
-
-
-interface ListItemProps {
-    name: string;
-    id: number;
-    isEdit: boolean;
-}
+import {ListItemProps} from './type.ts'
 
 export default function action(props: {
     List: ListItemProps[],
