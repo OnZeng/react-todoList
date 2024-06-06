@@ -12,7 +12,7 @@ export default function action(props: {
     List: ListItemProps[],
     setList: React.Dispatch<React.SetStateAction<ListItemProps[]>>;
 }) {
-    const { List, setList } = props;
+    const {List, setList} = props;
     // 添加
     const handleAdd = () => {
         const newItem = {
