@@ -1,0 +1,8 @@
+.box2 {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
