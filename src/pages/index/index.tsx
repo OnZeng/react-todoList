@@ -20,6 +20,7 @@ export default function Index() {
       id: 3,
     },
   ]);
+
   // 添加
   const handleAdd = () => {
     const newItem = {
